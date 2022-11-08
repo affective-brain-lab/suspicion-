@@ -14,7 +14,6 @@ library(cowplot)
 library(corrplot)
 
 # double check working directory
-setwd("D:/XUK5-2097647 - S Zheng - DATA/Behavioural cybersecurity/projects/cdg/5finalparams_clean")
 getwd()
 
 # study 1 data
