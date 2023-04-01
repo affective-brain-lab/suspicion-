@@ -17,11 +17,11 @@ library(corrplot)
 getwd()
 
 # study 1 data
-data_long <- read.csv("../final_analyses/master_fr_aggregate.csv") # adapt path as needed; fr = study 1
-data <- read.csv("../fr_topup_clean_long.csv") # adapt path as needed; fr = study 1
+data_long <- read.csv("../final_analyses/exp1_aggregate.csv") # adapt path as needed; fr = study 1
+data <- read.csv("../exp1_trials.csv") # adapt path as needed; fr = study 1
 # study 2 data
-data_long <- read.csv("../final_analyses/master_rs_aggregate.csv") # adapt path as needed; fr = study 1
-data <- read.csv("../rs_clean_long.csv") # adapt path as needed; fr = study 1
+data_long <- read.csv("../final_analyses/exp2_meta.csv") # adapt path as needed; fr = study 1
+data <- read.csv("../exp2_trials.csv") # adapt path as needed; fr = study 1
 
 ## load datasets
 setDT(data_long)
