@@ -23,10 +23,10 @@ lmer_std_ests <- function(fit) {
 }
 
 ## load datasets
-data_long <- read.csv("C:/Users/Sarah Zheng/dev/simpy-suspicion-model/exp3_data_trials.csv")
+data_long <- read.csv("../exp3_data_trials.csv")
 
-data <- read.csv("C:/Users/Sarah Zheng/dev/simpy-suspicion-model/exp3_meta.csv")
-data_meta <- read.csv("C:/Users/Sarah Zheng/dev/simpy-suspicion-model/exp3_meta.csv")
+data <- read.csv("../exp3_meta.csv")
+data_meta <- read.csv("../exp3_meta.csv")
 
 ## process trials data
 # subset data to only necessary columns
